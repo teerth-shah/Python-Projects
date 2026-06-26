@@ -1,3 +1,11 @@
+## Concepts 
+- loops
+- list
+- random built in function 
+
+
+
+
 import random
 
 print("-----------------------------------------")
