@@ -1,27 +1,112 @@
-# 🐍 Projects-In-Python
+# 🎯 Guess the Number Game (Python)
 
-Welcome to my Python Projects repository!
+## 📌 Description
 
-This repository contains Python programs and projects that I build while learning Python from the basics to advanced concepts. It serves as a record of my progress and helps me improve my problem-solving and programming skills.
+Guess the Number is a beginner-friendly Python project where the computer randomly selects a number, and the player has to guess it.
 
-## 📂 Repository Contents
+After each guess, the program provides feedback:
 
-- Beginner Python programs
-- Practice exercises
-- Mini projects
-- Object-Oriented Programming (OOP)
-- File handling
-- Automation scripts
-- More projects as I continue learning
+* 📉 **Too Low** if the guess is smaller than the secret number.
+* 📈 **Too High** if the guess is greater than the secret number.
+* 🎉 **Correct!** when the player guesses the number.
 
-## 🎯 Goal
+The game also tracks the number of attempts taken to find the correct answer.
 
-My goal is to master Python by consistently building projects and writing clean, efficient code.
+---
 
-## 🚀 Tech Stack
+## 🚀 Features
 
-- Python 3
-- VS Code
+* Random number generation
+* Interactive command-line interface
+* Hints after every guess
+* Attempt counter
+* Beginner-friendly Python code
+
+---
+
+## 🛠️ Technologies Used
+
+* Python 3
+* `random` module
+
+---
+
+## 📂 Project Structure
+
+```text
+Guess-The-Number/
+│── guess_the_number.py
+│── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd Guess-The-Number
+   ```
+
+3. Run the program:
+
+   ```bash
+   python guess_the_number.py
+   ```
+
+---
+
+## 🎮 Example Output
+
+```text
+🎯 Welcome to Guess the Number!
+
+I'm thinking of a number between 1 and 100.
+
+Enter your guess: 45
+Too Low!
+
+Enter your guess: 72
+Too High!
+
+Enter your guess: 63
+🎉 Congratulations! You guessed the number.
+
+Attempts: 3
+```
+
+---
+
+## 📚 Concepts Practiced
+
+* Variables
+* User Input (`input()`)
+* Conditional Statements (`if`, `elif`, `else`)
+* Loops (`while`)
+* Random Number Generation (`random.randint()`)
+* Basic Problem Solving
+---
+## 💡 Future Improvements
+* Easy, Medium, and Hard difficulty levels
+* Limited number of attempts
+* Play Again option
+* High score system
+* Multiplayer mode
+* Graphical User Interface (GUI)
+
+---
+
+## 👨‍💻 Author
+
+**Teerth Shah**
+
 
 ## 📈 Progress
 
