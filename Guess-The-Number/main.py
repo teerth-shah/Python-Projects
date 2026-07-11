@@ -12,8 +12,8 @@ print("-----------------------------------------")
 print("----------GUESS THE NUMBER --------------")
 print("-----------------------------------------")
 
+#list comprehension
 numbers = [i for i in range(1,101)]
-
 print("I have selected a number between 1 and 100.")
 
 numbers=random.choice(numbers)
