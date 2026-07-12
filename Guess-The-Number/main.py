@@ -15,7 +15,7 @@ print("-----------------------------------------")
 #list comprehension
 numbers = [i for i in range(1,101)]
 print("I have selected a number between 1 and 100.")
-
+#selects a random number 
 numbers=random.choice(numbers)
 
 print("You have 10 attempts to guess the number.")
