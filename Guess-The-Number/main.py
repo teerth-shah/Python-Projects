@@ -20,7 +20,7 @@ numbers=random.choice(numbers)
 
 print("You have 10 attempts to guess the number.")
 
-for i in range(1,11):
+for i in range(1,10+1):
     guess = int (input("Enter your guess:"))
 
     if(guess < numbers):
