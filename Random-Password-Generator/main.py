@@ -1,8 +1,8 @@
 import random 
-
+#random library 
 
 print("==============RANDOM PASSWORD GENERATOR==============")
-
+#loops in list
 numbers = [str(i) for i in range(1, 11)]
 symbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')']
 letters = [chr(i) for i in range(65, 91)] + [chr(i) for i in range(97, 123)]
@@ -23,6 +23,7 @@ for char in range(1,input_of_letters+1):
 
 random.shuffle(passwordlist)
 print(passwordlist)
+#another password variable so add every char in it  
 password =" "
 for char in passwordlist:
     password += char
