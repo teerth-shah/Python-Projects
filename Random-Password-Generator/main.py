@@ -6,7 +6,7 @@ print("==============RANDOM PASSWORD GENERATOR==============")
 numbers = [str(i) for i in range(1, 11)]
 symbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')']
 letters = [chr(i) for i in range(65, 91)] + [chr(i) for i in range(97, 123)]
-
+#created new list to take input 
 passwordlist = []
 input_of_numbers = int(input("How many numbers do you want in your password? "))
 input_of_symbols = int(input("How many symbols do you want in your password? "))    
