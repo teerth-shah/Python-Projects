@@ -16,7 +16,7 @@ print("Choose an option from the menu above: ")
 Coin = ["Heads ", "Tails"]
 
 choice =int(input())
-
+#switch case to enter case  acc. to choice 
 match choice :
     case 1 :
         #Toss once 
