@@ -11,7 +11,7 @@ passwordlist = []
 input_of_numbers = int(input("How many numbers do you want in your password? "))
 input_of_symbols = int(input("How many symbols do you want in your password? "))    
 input_of_letters = int(input("How many letters do you want in your password? "))
-
+#loops to append all random numbers , symbols, letters in list
 for char in range(1,input_of_numbers+1):
     passwordlist.append(random.choice(numbers))
 
