@@ -23,6 +23,7 @@ match choice :
       print("==========================")
       print("Flipping the coin....")
       print ("And the call is " + random.choice(Coin))
+        
     case 2 :
       #Toss multiple times 
       print("How much times do you want to toss coin ?")
@@ -37,9 +38,6 @@ match choice :
             print("Flipping the coin....")
             print ("And the call is " + random.choice(Coin))
            
-      
-            
-
     case 3:
       #View Statistics
       totals_toss = int(input("Enter the total number of tosses: "))
