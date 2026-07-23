@@ -1,6 +1,5 @@
 import random
-
-from sqlalchemy import case
+#random library
 
 print("===========================================")
 print("=========== COIN TOSS SIMULATOR ===========")
